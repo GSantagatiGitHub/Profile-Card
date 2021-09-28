@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right bottom, black, rgb(100, 200, 500));
+  }
+  
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0px 10px 20px black;
+    background-size: cover;
+    font-family: 'Serif', San Serif; 
+    background-image: url("https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/73296315_10217778812735098_3606345525755904000_o.jpg?_nc_cat=101&ccb=2&_nc_sid=84a396&_nc_ohc=YL9-x8anAisAX8zjOTm&_nc_ht=scontent-ort2-1.xx&oh=58e1ddc32541aa19c5d8f3d0f33aac1a&oe=602EC296");
+  }
+  
+  .gradient {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      background: linear-gradient(to top, rgba(0, 151, 330, 0.3), rgba(180, 252, 252, 0.10));
+      color: white;
+  }
+  
+  .content {
+    bottom: 0px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    position: absolute;
+  }
+  
+  h2 {
+    font-size: 37px;
+  }
+  
+  p {
+    font-style: italic;
+    font-size: 19px;
+  }
+  
+  .icon {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .icon i:hover {
+    color: #7CFC00;
+  }
